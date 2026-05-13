@@ -38,7 +38,7 @@ export function Navbar() {
       }`}
     >
       <div className="container-wide flex h-20 items-center justify-between">
-        <Logo height={28} />
+        <Logo height={28} withMark={false} />
 
         <nav className="hidden items-center gap-1 md:flex">
           {nav.map((item) => (

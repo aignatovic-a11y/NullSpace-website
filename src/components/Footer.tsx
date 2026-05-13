@@ -37,7 +37,7 @@ export function Footer() {
       <div className="container-page py-16">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Logo height={32} />
+            <Logo height={32} withMark={false} />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-muted">
               The all-in-one platform that handles scheduling, billing and client
               communication — so you can spend your day on the work that matters.
