@@ -35,9 +35,9 @@ export function AppShellMockup({ children }: Props) {
       <div className="flex items-center gap-3 border-b border-white/10 bg-black px-3 py-2 sm:px-4 sm:py-3">
         <div className="hidden items-center sm:flex">
           <img
-            src="/brand/logo-lockup.svg"
+            src="/brand/logo-lockup.png"
             alt="NullSpace"
-            className="block text-white"
+            className="block"
             style={{ height: 18, width: 'auto' }}
           />
         </div>

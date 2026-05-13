@@ -19,7 +19,7 @@ export function Logo({
   asLink = true,
   className = '',
 }: Props) {
-  const src = withMark ? '/brand/logo-lockup.svg' : '/brand/wordmark.svg';
+  const src = withMark ? '/brand/logo-lockup.png' : '/brand/wordmark.png';
   const ratio = withMark ? LOCKUP_RATIO : WORDMARK_RATIO;
   const width = Math.round(height * ratio);
 
